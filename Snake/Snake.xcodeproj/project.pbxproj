@@ -14,9 +14,9 @@
 		2CC82C7A1AE220C90066E245 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CC82C791AE220C90066E245 /* Images.xcassets */; };
 		2CC82C7D1AE220C90066E245 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CC82C7B1AE220C90066E245 /* LaunchScreen.xib */; };
 		2CC82C891AE220C90066E245 /* SnakeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC82C881AE220C90066E245 /* SnakeTests.m */; };
-		2CC82C941AE220EC0066E245 /* SnakeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC82C931AE220EC0066E245 /* SnakeView.m */; };
 		2CC82C991AE221330066E245 /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC82C971AE221330066E245 /* Sprite.m */; };
 		2CC82C9E1AE2306C0066E245 /* SnakeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC82C9D1AE2306C0066E245 /* SnakeUtils.m */; };
+		2CC82CA41AE23C370066E245 /* SnakeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC82CA31AE23C370066E245 /* SnakeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,12 +43,12 @@
 		2CC82C821AE220C90066E245 /* SnakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CC82C871AE220C90066E245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CC82C881AE220C90066E245 /* SnakeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnakeTests.m; sourceTree = "<group>"; };
-		2CC82C921AE220EC0066E245 /* SnakeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SnakeView.h; path = ../../SnakeView.h; sourceTree = "<group>"; };
-		2CC82C931AE220EC0066E245 /* SnakeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SnakeView.m; path = ../../SnakeView.m; sourceTree = "<group>"; };
 		2CC82C961AE221330066E245 /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
 		2CC82C971AE221330066E245 /* Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sprite.m; sourceTree = "<group>"; };
 		2CC82C9C1AE2306C0066E245 /* SnakeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnakeUtils.h; sourceTree = "<group>"; };
 		2CC82C9D1AE2306C0066E245 /* SnakeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnakeUtils.m; sourceTree = "<group>"; };
+		2CC82CA21AE23C370066E245 /* SnakeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnakeView.h; sourceTree = "<group>"; };
+		2CC82CA31AE23C370066E245 /* SnakeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnakeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,12 +130,12 @@
 		2CC82C9F1AE230790066E245 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2CC82CA21AE23C370066E245 /* SnakeView.h */,
+				2CC82CA31AE23C370066E245 /* SnakeView.m */,
 				2CC82C7B1AE220C90066E245 /* LaunchScreen.xib */,
 				2CC82C761AE220C90066E245 /* Main.storyboard */,
 				2CC82C961AE221330066E245 /* Sprite.h */,
 				2CC82C971AE221330066E245 /* Sprite.m */,
-				2CC82C921AE220EC0066E245 /* SnakeView.h */,
-				2CC82C931AE220EC0066E245 /* SnakeView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -263,7 +263,7 @@
 				2CC82C751AE220C90066E245 /* ViewController.m in Sources */,
 				2CC82C721AE220C90066E245 /* AppDelegate.m in Sources */,
 				2CC82C6F1AE220C90066E245 /* main.m in Sources */,
-				2CC82C941AE220EC0066E245 /* SnakeView.m in Sources */,
+				2CC82CA41AE23C370066E245 /* SnakeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +454,7 @@
 				2CC82C8E1AE220C90066E245 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CC82C8F1AE220C90066E245 /* Build configuration list for PBXNativeTarget "SnakeTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +463,7 @@
 				2CC82C911AE220C90066E245 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

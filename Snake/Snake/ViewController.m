@@ -42,7 +42,7 @@
     [btnRestart addTarget:self action:@selector(restartGame) forControlEvents:UIControlEventTouchUpInside];
     
     [self.view addSubview:[mainView scoreLabel]];
-    [mainView scoreLabel].frame =CGRectMake(Main_Screen_Width-80, offsetX, 60, 30);
+    [mainView scoreLabel].frame =CGRectMake(Main_Screen_Width-150, offsetX, 140, 30);
     offsetX +=30;
     lblHighestScore= [[UILabel alloc] initWithFrame:CGRectMake(0, offsetX, Main_Screen_Width, 30)];
     lblHighestScore.textAlignment = NSTextAlignmentCenter;
