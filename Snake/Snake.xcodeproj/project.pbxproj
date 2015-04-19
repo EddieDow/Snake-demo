@@ -49,6 +49,7 @@
 		2CC82C9D1AE2306C0066E245 /* SnakeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnakeUtils.m; sourceTree = "<group>"; };
 		2CC82CA21AE23C370066E245 /* SnakeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnakeView.h; sourceTree = "<group>"; };
 		2CC82CA31AE23C370066E245 /* SnakeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnakeView.m; sourceTree = "<group>"; };
+		2CC82CA51AE33AD70066E245 /* SnakeConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnakeConstants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +155,7 @@
 			children = (
 				2CC82C9C1AE2306C0066E245 /* SnakeUtils.h */,
 				2CC82C9D1AE2306C0066E245 /* SnakeUtils.m */,
+				2CC82CA51AE33AD70066E245 /* SnakeConstants.h */,
 			);
 			name = Utils;
 			sourceTree = "<group>";

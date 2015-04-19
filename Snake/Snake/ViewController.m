@@ -9,8 +9,8 @@
 #import "ViewController.h"
 #import "SnakeView.h"
 #import "SnakeUtils.h"
-#define Main_Screen_Height [[UIScreen mainScreen] applicationFrame].size.height //主屏幕的高度
-#define Main_Screen_Width  [[UIScreen mainScreen] applicationFrame].size.width  //主屏幕的宽度
+#import "SnakeConstants.h"
+
 
 @interface ViewController (){
     CGFloat offsetX;

@@ -10,6 +10,7 @@
 #import "Sprite.h"
 #include <stdlib.h>
 #import "SnakeUtils.h"
+#import "SnakeConstants.h"
 
 
 #define DOWN 0
@@ -20,8 +21,8 @@
 #define STATE_ALIVE 0
 #define STATE_DEAD 1
 
-#define x_start 100
-#define y_start 100
+#define x_start Main_Screen_Width*4.0/10.0
+#define y_start Main_Screen_Width*4.0/10.0
 #define score_piece 5.0;
 #define k_refresh_interval 0.35f
 
