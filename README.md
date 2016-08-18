@@ -1,3 +1,3 @@
-# Snake (贪吃蛇)
+# Gluttonous Snake (贪吃蛇)
 
 
